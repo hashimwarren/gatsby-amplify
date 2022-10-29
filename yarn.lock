@@ -826,8 +826,8 @@
   resolved "https://registry.yarnpkg.com/@types/mkdirp/-/mkdirp-0.3.29.tgz#7f2ad7ec55f914482fc9b1ec4bb1ae6028d46066"
 
 "@types/node@*":
-  version "10.5.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.7.tgz#960d9feb3ade2233bcc9843c918d740b4f78a7cf"
+  version "18.11.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.7.tgz#8ccef136f240770c1379d50100796a6952f01f94"
 
 "@types/node@^7.0.11":
   version "7.0.69"
@@ -997,11 +997,11 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
 
 accepts@^1.3.0, accepts@~1.3.4, accepts@~1.3.5:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.5.tgz#eb777df6011723a3b14e8a72c0805c8e86746bd2"
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.8.tgz#0bf0be125b67014adcb0b0921e62db7bffe16b2e"
   dependencies:
-    mime-types "~2.1.18"
-    negotiator "0.6.1"
+    mime-types "~2.1.34"
+    negotiator "0.6.3"
 
 acorn-dynamic-import@^3.0.0:
   version "3.0.0"
@@ -4381,17 +4381,11 @@ graphql-type-json@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/graphql-type-json/-/graphql-type-json-0.2.1.tgz#d2c177e2f1b17d87f81072cd05311c0754baa420"
 
-graphql@0.13.0:
+graphql@0.13.0, graphql@^0.13.0, graphql@^0.13.2:
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.13.0.tgz#d1b44a282279a9ce0a6ec1037329332f4c1079b6"
   dependencies:
     iterall "1.1.x"
-
-graphql@^0.13.0, graphql@^0.13.2:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.13.2.tgz#4c740ae3c222823e7004096f832e7b93b2108270"
-  dependencies:
-    iterall "^1.2.1"
 
 gud@^1.0.0:
   version "1.0.0"
@@ -5144,7 +5138,7 @@ iterall@1.1.x:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.1.4.tgz#0db40d38fdcf53ae14dc8ec674e62ab190d52cfc"
 
-iterall@^1.1.3, iterall@^1.2.1:
+iterall@^1.1.3:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
 
@@ -5636,6 +5630,10 @@ miller-rabin@^4.0.0:
     bn.js "^4.0.0"
     brorand "^1.0.1"
 
+mime-db@1.52.0:
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.52.0.tgz#bbabcdc02859f4987301c856e3387ce5ec43bf70"
+
 "mime-db@>= 1.34.0 < 2", mime-db@~1.35.0:
   version "1.35.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.35.0.tgz#0569d657466491283709663ad379a99b90d9ab47"
@@ -5645,6 +5643,12 @@ mime-types@^2.1.12, mime-types@~2.1.17, mime-types@~2.1.18:
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.19.tgz#71e464537a7ef81c15f2db9d97e913fc0ff606f0"
   dependencies:
     mime-db "~1.35.0"
+
+mime-types@~2.1.34:
+  version "2.1.35"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.35.tgz#381a871b62a734450660ae3deee44813f70d959a"
+  dependencies:
+    mime-db "1.52.0"
 
 mime@1.4.1:
   version "1.4.1"
@@ -5819,9 +5823,9 @@ needle@^2.2.1:
     iconv-lite "^0.4.4"
     sax "^1.2.4"
 
-negotiator@0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
+negotiator@0.6.3:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.3.tgz#58e323a72fedc0d6f9cd4d31fe49f51479590ccd"
 
 neo-async@^2.5.0:
   version "2.5.1"
